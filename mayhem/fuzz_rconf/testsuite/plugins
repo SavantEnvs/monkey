@@ -1,0 +1,3 @@
+[PLUGINS]
+    Load /usr/lib/monkey-liana.so
+    Load /usr/lib/monkey-logger.so

@@ -1,0 +1,13 @@
+[SERVER]
+    Listen 2001
+    Workers 0
+    Timeout 15
+    Indexfile index.html index.htm
+    HideVersion Off
+    Resume On
+    KeepAlive On
+    MaxKeepAliveRequest 50
+    KeepAliveTimeout 5
+    UserDir public_html
+    PidFile /run/monkey.pid
+    Daemon Off

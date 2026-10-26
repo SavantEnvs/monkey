@@ -1,0 +1,9 @@
+project: savantenvs/monkey
+target: fuzz_rconf
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_rconf/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rconf
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,4 @@
+JHEAD /a/b/c.txt HTTP/1.0
+Host: x
+Connection: close
+

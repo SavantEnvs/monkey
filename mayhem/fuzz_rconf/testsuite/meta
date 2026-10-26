@@ -1,0 +1,5 @@
+@SET root=/srv
+# comment
+[FOO]
+    Key value
+    Other "quoted value"
